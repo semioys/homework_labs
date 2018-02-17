@@ -1,1 +1,1 @@
-# homework_labs
+# Labs and Homework for Web Design.
