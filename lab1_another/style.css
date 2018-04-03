@@ -1,0 +1,120 @@
+/* Resets */
+body,p,ul {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* box-sizing */
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* Wrapper */
+.container {
+    padding: 0 15px;
+    margin: auto;
+    width: 1170px;
+}
+
+/* Styles */
+
+/* Navbar */
+.navbar {
+    height: 150px;
+    background-color: #999999;
+}
+
+.navbar .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Fold */
+.fold {
+    height: 550px;
+    background-color: #55FF99;
+}
+
+.fold .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Portfolio */
+.portfolio .container {
+    background-color: #ffaaaaff;
+}
+
+.portfolio .container p {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.portfolio-gallery li {
+    display: inline-block;
+    margin: 0 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Image-list */
+.image-list .image-list-gallery {
+    text-align: center;
+}
+
+.image-list .image-list-gallery li {
+    display: inline-block;
+    padding: 15px;
+}
+
+
+/* Text-block */
+.text-block .container {
+    background-color: #ffaaaaff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.text-block .container p {
+    padding: 10px;
+}
+
+.text {
+    background-color: #ffdd55ff;
+    padding: 10px;
+}
+
+.image-list {
+    background-color: #808080;
+}
+
+
+/* Footer */
+.footer {
+    height: 300px;
+    position: relative;
+    background-color: #4c4c4c;
+}
+
+.footer p{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
